@@ -15,16 +15,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider
-      appearance={{
-        baseTheme: dark,
-      }}
-    >
-      <html lang="en" suppressHydrationWarning>
-        <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
-        </head>
-        <body className={`${inter.className}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ClerkProvider
+          appearance={{
+            baseTheme: dark,
+          }}
+        >
           <ThemeProvider
             attribute="class"
             forcedTheme="dark"
@@ -33,7 +30,9 @@ export default function RootLayout({ children }) {
             disableTransitionOnChange
           >
             <Header />
+
             <main className="min-h-screen">{children}</main>
+
             <Toaster richColors />
 
             <footer className="bg-muted/50 py-12">
@@ -42,8 +41,8 @@ export default function RootLayout({ children }) {
               </div>
             </footer>
           </ThemeProvider>
-        </body>
-      </html>
-    </ClerkProvider>
+        </ClerkProvider>
+      </body>
+    </html>
   );
 }
