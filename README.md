@@ -6,7 +6,7 @@
 
 Build stronger application materials, prepare for interviews, and make informed career decisions with personalised, industry-aware AI guidance.
 
-[![Live Preview](https://img.shields.io/badge/Live_Preview-Visit_App-success?style=for-the-badge)](YOUR_LIVE_PREVIEW_URL)
+[![Live Preview](https://img.shields.io/badge/Live_Preview-Visit_App-success?style=for-the-badge)](https://ai-career-coach-and-resume-builder-sable.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/kithusibrian/AI-Career-coach-and-Resume-Builder)
 
 <p>
