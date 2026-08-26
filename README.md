@@ -71,31 +71,29 @@ Google Gemini powers context-aware suggestions for resumes, cover letters, inter
 
 ## 📸 Screenshots
 
-> Add your screenshots to `public/screenshots/`, then replace the placeholder paths below. A 16:9 image works especially well for the wide previews.
+| Career Dashboard                                                  | Resume Builder                                                      |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Career dashboard placeholder](public/screenshots/dashboard.png) | ![Resume builder placeholder](public/screenshots/resumebuilder.png) |
 
-| Career Dashboard | Resume Builder |
-| --- | --- |
-| ![Career dashboard placeholder](public/screenshots/dashboard-placeholder.png) | ![Resume builder placeholder](public/screenshots/resume-placeholder.png) |
-
-| Interview Practice | AI Cover Letter |
-| --- | --- |
-| ![Interview practice placeholder](public/screenshots/interview-placeholder.png) | ![Cover letter placeholder](public/screenshots/cover-letter-placeholder.png) |
+| Interview Practice                                                  | AI Cover Letter                                                     |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Interview practice placeholder](public/screenshots/interview.png) | ![Cover letter placeholder](public/screenshots/coverletterpage.png) |
 
 ---
 
 ## 🛠 Tech Stack
 
-| Area | Technology |
-| --- | --- |
-| Framework | Next.js 16, React 19, App Router |
-| Styling | Tailwind CSS v4, shadcn/ui, Lucide React |
-| AI | Google Gemini |
-| Authentication | Clerk |
-| Database | PostgreSQL, Prisma ORM |
-| Validation & Forms | Zod, React Hook Form |
-| Charts | Recharts |
-| PDF Export | html2pdf.js |
-| Background Workflows | Inngest |
+| Area                 | Technology                               |
+| -------------------- | ---------------------------------------- |
+| Framework            | Next.js 16, React 19, App Router         |
+| Styling              | Tailwind CSS v4, shadcn/ui, Lucide React |
+| AI                   | Google Gemini                            |
+| Authentication       | Clerk                                    |
+| Database             | PostgreSQL, Prisma ORM                   |
+| Validation & Forms   | Zod, React Hook Form                     |
+| Charts               | Recharts                                 |
+| PDF Export           | html2pdf.js                              |
+| Background Workflows | Inngest                                  |
 
 ---
 
