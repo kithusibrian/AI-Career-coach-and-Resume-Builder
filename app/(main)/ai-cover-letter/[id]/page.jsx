@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getCoverLetter } from "@/actions/cover-letter";
+import { getCoverLetterById } from "@/actions/cover-letter";
 import CoverLetterPreview from "../_components/cover-letter-preview";
 
 export default async function EditCoverLetterPage({ params }) {
   const { id } = await params;
-  const coverLetter = await getCoverLetter(id);
+  const coverLetter = await getCoverLetterById(id);
 
   return (
     <div className="container mx-auto py-6">
